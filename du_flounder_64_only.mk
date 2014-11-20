@@ -34,9 +34,8 @@ PRODUCT_PACKAGES += \
 $(call inherit-product, device/htc/flounder/product_64_only.mk)
 $(call inherit-product, $(SRC_TARGET_DIR)/product/aosp_base.mk)
 
-PRODUCT_NAME := aosp_flounder_64_only
+PRODUCT_NAME := du_flounder_64_only
 PRODUCT_DEVICE := flounder
 PRODUCT_BRAND := Android
-PRODUCT_MODEL := AOSP on Flounder (64-bit only)
+PRODUCT_MODEL := DU on Flounder (64-bit only)
 PRODUCT_MANUFACTURER := HTC
-PRODUCT_RESTRICT_VENDOR_FILES := owner path

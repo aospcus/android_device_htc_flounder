@@ -12,6 +12,8 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
-$(call inherit-product, $(LOCAL_PATH)/aosp_flounder.mk)
+$(call inherit-product, $(LOCAL_PATH)/du_flounder.mk)
 
-PRODUCT_NAME := aosp_flounder64
+PRODUCT_NAME := du_flounder32
+PRODUCT_DEVICE := flounder32
+PRODUCT_MODEL := 32-bit DU on Flounder
