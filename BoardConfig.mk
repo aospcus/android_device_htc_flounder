@@ -146,4 +146,7 @@ EXTENDED_FONT_FOOTPRINT := true
 # let charger mode enter suspend
 BOARD_CHARGER_ENABLE_SUSPEND := true
 
+# Enable workaround for slow rom flash
+BOARD_SUPPRESS_SECURE_ERASE := true
+
 MALLOC_IMPL := dlmalloc
