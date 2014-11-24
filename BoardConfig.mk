@@ -35,6 +35,9 @@ TARGET_2ND_CPU_VARIANT := denver
 # Disable emulator for "make dist" until there is a 64-bit qemu kernel
 BUILD_EMULATOR := false
 
+# Specify zImage Name
+BOARD_KERNEL_IMAGE_NAME := Image.gz-dtb
+
 TARGET_NO_BOOTLOADER := true
 
 TARGET_NO_RADIOIMAGE := true
