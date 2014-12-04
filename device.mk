@@ -22,7 +22,7 @@ PRODUCT_PACKAGES := \
 
 # Kernel inline
 TARGET_KERNEL_SOURCE := kernel/htc/flounder
-TARGET_KERNEL_CUSTOM_TOOLCHAIN := arm-eabi-4.7
+TARGET_KERNEL_CUSTOM_TOOLCHAIN := aarch64-linux-android-4.9
 TARGET_KERNEL_CONFIG := flounder_defconfig
 TARGET_VARIANT_CONFIG := flounder_defconfig
 TARGET_SELINUX_CONFIG := flounder_defconfig
