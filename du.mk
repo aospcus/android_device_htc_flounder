@@ -26,7 +26,7 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/aosp_base.mk)
 
 # Inherit from our custom product configuration
 $(call inherit-product, vendor/du/config/common_full_tablet_wifionly.mk)
-$(call inherit-product, vendor/du/config/telephony.mk)
+$(call inherit-product, vendor/du/config/gsm.mk)
 
 PRODUCT_NAME := du_flounder
 PRODUCT_DEVICE := flounder
